@@ -33,6 +33,10 @@ public class rps3 {
             else if (userChoice.equals("p")) userChoice = "paper";
             else if (userChoice.equals("s")) userChoice = "scissors";
 
+
+
+            
+
             //// QUESTION 5: Explain what this logic is doing
             if (!userChoice.equals("rock") && 
                 !userChoice.equals("paper") && 
@@ -48,7 +52,8 @@ public class rps3 {
             if (userChoice.equals(_________________________)) {   //// QUESTION 7b: Fill in the blank. Which variable type do you use here? 
                 System.out.println("It's a tie!");
                 ties++;
-            } else if ( //// QUESTION 8: Fill in the blank for this section below. Write the logic for all the winning combinations with the appropriate bitwise operators
+            } else if ( 
+                //// QUESTION 8: Fill in the blank for this section below. Write the logic for all the winning combinations with the appropriate bitwise operators
                 (userChoice.equals("___________") ____ computerChoice.equals("___________")) ____
                 (userChoice.equals("___________") ____ computerChoice.equals("___________")) ____
                 (userChoice.equals("___________") ____ computerChoice.equals("___________"))
